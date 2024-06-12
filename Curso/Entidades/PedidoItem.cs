@@ -32,10 +32,10 @@ namespace Curso.Entidades
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();            
-            sb.Append($"{Produto.Name}, Quantidade: {Quantidade}, SubTotal: ${SubTotal()}");
+            sb.Append($"{Produto.Name}, Quantidade: {Quantidade}, Price: {Valor}, SubTotal: ${SubTotal()}");
             return sb.ToString();
         }
 
-
+        
     }
 }

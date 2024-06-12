@@ -24,6 +24,6 @@ namespace Curso.Entidades
             StringBuilder sb = new StringBuilder();
             sb.Append($"Cliente: {Nome} ({Data}) - {Email}");
             return sb.ToString();
- 6      }
+        }
     }
 }

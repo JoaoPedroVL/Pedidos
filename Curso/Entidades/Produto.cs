@@ -8,7 +8,7 @@ namespace Curso.Entidades
 {
     internal class Produto
     {
-        public string Name { get; set; }
+        public string Name { get; private set; }
         public double Valor { get; set; }
         public Produto(string name, double valor)
         {
